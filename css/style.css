@@ -1,0 +1,134 @@
+.container {
+    max-width: 1170px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.ul1 {
+    display: flex;
+}
+
+li {
+    margin-right: 55px;
+}
+
+/* li :last-child {
+    margin-right: 0px;
+} aranairad ar gamovida arada sublimeshi gaaketa */
+
+.lastli {
+    margin-right: 0px;
+}
+
+.list {
+    display: none;
+}
+
+
+.s-1 {
+    background-image: url(../images/banner.png);
+    background-color: blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 570px;
+    margin-bottom: 75px;
+    
+}
+
+.s-1container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 570px;
+    position: relative;
+}
+
+h1 {
+    font-size: 80px;
+    color: white;
+}
+
+h2 {
+    position: absolute;
+    bottom: 210px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.info > h3 {
+    font-size: 16px;
+    margin-bottom: 4px;
+    font-family: 'Raleway', sans-serif;
+    color: #8D8D8D;
+}
+
+.info > h4 {
+    font-size: 26px;
+    margin-bottom: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.info > p {
+    font-size: 16px;
+    color: #8D8D8D;
+    font-family: 'Raleway', sans-serif;
+    line-height: 22px;
+
+}
+
+.info {
+    width: 252px;
+    margin-right: 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards {
+    max-width: 880px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 270px;
+    margin-bottom: 50px;
+}
+
+.card:nth-child(4),.card:nth-child(5),.card:nth-child(6) {
+    margin-bottom: 0px;
+}
+
+.card > img {
+    margin-bottom: 20px;
+}
+
+.card > h5 {
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+.card > p {
+    font-size: 16px;
+    color: #8D8D8D;
+    font-family: 'Raleway', sans-serif;
+
+}
